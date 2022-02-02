@@ -74,10 +74,15 @@ header span, header i {
 
 #center-nav {
     width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #right-nav {
-    width: 10%;
+    width: 7%;
+    color: red;
+    background-color: gray;
 }
 
 footer i {
@@ -101,3 +106,18 @@ footer i {
     margin: 0 auto;
 }
 
+#right-nav p {
+    margin: auto;
+}
+
+.far.fa-share-square {
+    color: rgb(26, 211, 26);
+}
+
+#center-nav i.fas.fa-angle-up {
+    font-size: 20px;
+}
+
+#center-nav > div {
+    margin-right: 20px;
+}
