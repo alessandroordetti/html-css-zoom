@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+}
+
+header {
+    height: 10vh;
+    background-color: brown;
+    justify-content: flex-end;
+}
+
+main {
+    height: 80vh;
+    background-color: coral;
+}
+
+footer {
+    background-color: darkgreen;
+    height: 10vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo-container {
+    width: 250px;
+    height: 150px;
+    background-image: url('../img/mountain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction:column-reverse;
+}
+
+.logo-container > span {
+    background-color: rgb(175 150 150 / 58%);
+    width: 40%;
+}
