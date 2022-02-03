@@ -9,7 +9,7 @@ body{
 }
 
 header {
-    height: 7vh;
+    height: 5vh;
     background-color: black;
     justify-content: flex-end;
 }
@@ -22,7 +22,7 @@ section {
 
 footer {
     background-color: rgb(32, 29, 29);
-    height: 10vh;
+    height: 7vh;
     justify-content: space-between;
 }
 
